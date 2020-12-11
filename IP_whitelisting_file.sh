@@ -2,7 +2,7 @@ echo 'a is new Port Number'
 a=55
 echo $a
 echo 'b is New IP to Whitelist'
-b=192.191.190.189
+b=192.1.2.3
 echo $b
 echo 'c is Old Port Number'
 c=1001
