@@ -5,10 +5,10 @@ echo 'b is New IP to Whitelist'
 b=172.11.22.33/32
 echo $b
 echo 'c is Old Port Number'
-c=1001
+c=55
 echo $c
 echo 'd is Old IP to Blacklist'
-d=2.22.220.0/22
+d=19.1.2.3/32
 echo $d
 echo 'Updating the IP for WHITELIST'
 echo ' '
