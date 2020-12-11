@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh AWS_Security_group_rule_update.sh
-                sh date
+                sh 'date'
                 
             }
         }
