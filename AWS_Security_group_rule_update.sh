@@ -4,14 +4,11 @@
 #aws configure set output json
 echo 'Authenticating with AWS'
 echo ''
-echo ' '
 sh awscreds.sh
 echo ''
-echo ' '
 echo 'Security group rules BEFORE updating in text format'
 echo ' '
 aws ec2 describe-security-groups --group-name default --output text
-echo ''
 echo ''
 echo 'ADDING NEW RULE'
 echo ''
