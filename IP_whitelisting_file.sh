@@ -12,4 +12,4 @@ d=2.22.221.22/2
 echo $d
 echo 'Updating the IP for WHITELIST'
 echo ' '
-sh /var/lib/jenkins/workspace/aws/AWS_Security_group_rule_update.sh $a b $c d
+sh /var/lib/jenkins/workspace/aws/AWS_Security_group_rule_update.sh $a $b $c $d
