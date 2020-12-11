@@ -3,3 +3,4 @@ aws ec2 authorize-security-group-ingress --group-name default --protocol tcp --p
 aws ec2 describe-security-groups --group-name default --output text
 pwd
 date
+ls -ltr
