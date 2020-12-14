@@ -1,5 +1,5 @@
 echo 'a is new Port Number'
-a=99
+a=98
 echo $a
 echo 'b is New IP to Whitelist'
 b=172.11.22.33/32
