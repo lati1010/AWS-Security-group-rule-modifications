@@ -2,7 +2,7 @@
 #aws configure set aws_secret_access_key yLS+NQc8yLwikkwQIhX24/xTq88PDTsPklbC3UBT
 #aws configure set default.region ap-south-1
 #aws configure set output json
-echo 'Authenticating with AWS'
+echo 'Authenticating With AWS'
 echo ''
 sh awscreds.sh
 echo ''
